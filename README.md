@@ -2,7 +2,7 @@
 
 My best score on Kaggle Leaderboard : 0.12514
 
-(I would fix some feature engineering and try stacking method to improve my model performance.)
+"I would improve my model performance by fixing some feature engineering issues and experimenting with stacking methods."
 
 ## Description
 
