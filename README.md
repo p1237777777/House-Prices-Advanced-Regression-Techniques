@@ -1,39 +1,42 @@
 # House-Prices-Advanced-Regression-Techniques
 
-My best score on Kaggle Leaderboard : 0.12514
+My best score on Kaggle Leaderboard : 0.11901 (TOP 10%)
 
 "I would improve my model performance by fixing some feature engineering issues and experimenting with stacking methods."
 
 ## Description
 
-### Step1. Find data correlation
+### Data Correlation:
+Identify correlations among the features in the data.
 
-### Step2. Transform SalePrice data with log transformation
+### SalePrice Transformation:
+Transform the SalePrice data using log transformation to improve the model performance.
 
-### Step3. Data clean
+### Data Cleaning
         
-1. Change data type in numerical features that should be categorical
-    
-2. Replace Objective missing value with str 'NA', 'None' &  Numerical missing value with 0
-    
-3. Fill some object data with mode data
+Clean the data by performing the following operations:
 
-### Step4. Transform skewed features with boxcox transformation
+* Convert numerical features that should be categorical to the categorical data type.
+* Replace missing values in the objective feature with 'NA' or 'None' and numerical missing values with 0.
+* Fill some object data with mode data.
 
-### Step5. Feature engineering
+### Skewed Features Transformation
+* Transform skewed features with boxcox transformation.
 
-1. Label encoder
+### Feature Engineering
 
-2. one hot encoder
+Perform feature engineering by using the following techniques:
 
-### Step6.Modelization
+* Label Encoder
+* One Hot Encoder
 
-1. Gradient Boosting Regressor
+### Modeling
 
-2. XGBoost Regressor
+Train the model using the following regressors:
 
-3. Catboost Regressor
-
-4. LightGBM Regressor
-
-5. Random Forest Regressor
+* Gradient Boosting Regressor
+* XGBoost Regressor
+* Catboost Regressor
+* LightGBM Regressor
+* Random Forest Regressor
+* Stacking model
