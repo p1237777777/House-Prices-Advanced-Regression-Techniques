@@ -1,8 +1,6 @@
 # House-Prices-Advanced-Regression-Techniques
 
-My best score on Kaggle Leaderboard : **0.11901 (TOP 10%)**
-
-"I would improve my model performance by fixing some feature engineering issues and experimenting with stacking methods."
+My best score on Kaggle Leaderboard : **0.11901 (TOP 9%)**
 
 ## Description
 
